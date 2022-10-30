@@ -2457,10 +2457,10 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		/* background-color: transparent; */
+		background-color: transparent;
 		border-radius: 0.35em;
 		border: solid 3px #efefef;
-		/* color: #1f1815 !important; */
+		color: #1f1815 !important;
 		background-color: orange;
 		cursor: pointer;
 		display: inline-block;
@@ -2607,12 +2607,6 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background-color: #1f1815;
-		/* background-image: url("images/leftImage.png"), url("../../images/leftImage.jpg");
-		background-position:left, left;
-		background-attachment: fixed;
-		background-repeat: repeat,no-repeat;
-		background-size: cover,cover; */
-
 		background-image: linear-gradient(
 			to bottom,
 			rgba(255, 255, 255, 0.869),
@@ -2621,15 +2615,9 @@ input, select, textarea {
 		background-attachment: fixed;
 		background-repeat: repeat,no-repeat;
 		background-size: cover,cover;
-
-
-		/* color: rgba(255, 255, 255, 0.5); */
 		height: 100%;
 		left: 0;
-		/* padding: 8em 4em; */
 		position: fixed;
-		/* text-align: right; */
-		/* top: 0; */
 		width: 20%;
 	}
 
@@ -3131,7 +3119,7 @@ input, select, textarea {
 /* XSmall */
 
 	@media screen and (max-width: 480px) {
-
+ 
 		/* Header */
 
 			#header {
@@ -3152,15 +3140,4 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
-			.copyright {
-				font-size: 1em;
-				margin: 0;
-				/* al fondo del div */
-				position: absolute;
-				bottom: 0;
-				width: 100%;
-				flex: 1;
-				flex-direction: column;
-				justify-content: flex-end;
-			}
 	}
