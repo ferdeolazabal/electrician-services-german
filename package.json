@@ -1,7 +1,7 @@
 {
-  "name": "ferdeolazabal-brief",
+  "name": "electric-project",
   "version": "1.0.0",
-  "description": "brief",
+  "description": "electric-services",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
