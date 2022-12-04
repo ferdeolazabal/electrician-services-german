@@ -2,4 +2,4 @@
 
 ## Live Test
 
-[https://electricistadeloeste.herokuapp.com/](https://electricistadeloeste.herokuapp.com/)
+[https://electricistadeloeste.surge.sh/](https://electricistadeloeste.surge.sh/)
